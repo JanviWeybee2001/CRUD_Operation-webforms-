@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Invoice_Module.master.cs" Inherits="Invoice_Module.Invoice_Module" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="App_Themes/Theme1/StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            margin: auto;
+            width: 70%;
+        }
+        .auto-style2 {
+            width: 124px;
+            color:white;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="headerbar">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <table class="auto-style1">
+                        <tr>
+                            <td class="auto-style2">Invoice Module</td>
+                            <td>
+                                <table class="auto-style1">
+                                    <tr>
+                                        <td class="Party_TAB"><a href="<%= Page.ResolveUrl("~/Party.aspx")%>" class="Party_TAB">Party</a></td>
+                                        <td class="Product_TAB"><a href="<%= Page.ResolveUrl("~/Products.aspx")%>" class="Product_TAB">Products</a></td>
+                                        <td class="AssignParty_TAB"><a href="<%= Page.ResolveUrl("~/AssignParty.aspx")%>" class="AssignParty_TAB">AssignParty</a></td>
+                                        <td class="ProductRate_TAB"><a href="<%= Page.ResolveUrl("~/ProductRate.aspx")%>" class="ProductRate_TAB">ProductRate</a></td>
+                                        <td class="Invoice_TAB"><a href="<%= Page.ResolveUrl("~/Invoice.aspx")%>" class="Invoice_TAB">Invoice</a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="Title">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                    Title
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="ButtonAdd">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                Master PAge
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

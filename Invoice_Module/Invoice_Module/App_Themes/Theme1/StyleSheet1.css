@@ -1,0 +1,173 @@
+﻿body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.headerbar {
+    background-color: black;
+}
+
+.auto-style1 tr td {
+    box-sizing: border-box;
+}
+
+.auto-style1 td a {
+    color: gray;
+    text-decoration: none;
+}
+
+.auto-style1 td a:hover, .auto-style1 td a:focus {
+    cursor: pointer;
+    color: white;
+}
+
+.Title {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    height:50px;
+    line-height: 50px;
+}
+
+.Table {
+    width:80%;
+    margin:auto;
+    margin-top: 40px;
+}
+
+.idFont 
+{
+    text-align: center;
+}
+
+.btnEdit 
+{
+    height: 20px;
+    width: 20px;
+}
+
+.btnDelete {
+    height: 20px;
+    width: 20px;
+}
+
+.Items
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+.btnADD {
+    width: 200px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+    float: right;
+    margin-right: 300px;
+    border-color: goldenrod;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.btnADD:hover {
+    border-color: darkgoldenrod;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.lblStatus {
+    text-align: center;
+    margin: 20px;
+}
+
+.ButtonAdd {
+    text-align: center;
+    width: 100%;
+}
+
+.addtxtDiv {
+    width: 100%;
+    text-align: center;
+    height:40px;
+    margin-bottom: 20px;
+}
+
+.addButtonDiv {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    gap: 35px;
+    width: 100%;
+    justify-content: center;
+    margin: 30px;
+}
+
+.btnCancle {
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+.btnCancle:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.txtAddfield {
+    height: 30px;
+    margin-left: 20px;
+    line-height: 40px;
+    width: 160px;
+    font-size:15px;
+}
+
+.lblAddtitle {
+    line-height: 40px;
+    font-size:20px;
+}
+
+.btnSave {
+    background-color: #5cb85c;
+    color: white;
+    border-color: #4cae4c; 
+    border-radius: 5px;
+}
+
+.addDiv {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btnclose {
+    width: 110px;
+    border: 1px solid #d43f3a;
+    background-color: #d9534f;
+    color: white;
+    font-weight:bold;
+    height:30px;
+    border-radius: 5px;
+}
+
+.btnCloseDiv {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 50px;
+} 
+
+.exceptionlbl {
+    text-align: center;
+    width: 100%;
+    float: right;
+    margin: 15px;
+    color: darkorange;
+    font-size: 20px;
+}
